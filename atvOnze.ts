@@ -44,8 +44,8 @@ if (opcao === 1) {
 if (valorcarro > 0) {
     console.log("----------------------------------------------");
     console.log("Escolha a forma de pagamento:");
-    console.log("1 - À vista");
-    console.log("2 - Parcelado");
+    console.log("1 - À vista (15% de desconto)");
+    console.log("2 - Parcelado (13% de acréscimo)");
     console.log("----------------------------------------------");
 
     let formaPagamento: number = parseInt(teclado("Digite o número da forma de pagamento desejada: "));
